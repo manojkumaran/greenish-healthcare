@@ -48,13 +48,17 @@
         </script>
 		<script>
 	$(document).ready(function(){
-		$(".collapse-icon i").click(function(){
-			console.log("hi");
-			console.log($(this).next(".menu-collapse"));
-			$(this).next(".menu-collapse").css("display","block");
+		/* Script for collapsible icon in small devices */
+		$('.collapse-icon span i').click(function() {
+			var $lefty = $(".menu-collapse");
+			$lefty.animate({
+			  left: parseInt($lefty.css('left'),10) == 0 ?
+				-$lefty.innerWidth()-300 :
+				0
+			});
 		});
 	
-	})
+	});
 </script>
 
     </body>

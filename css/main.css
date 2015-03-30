@@ -444,21 +444,6 @@ header{
 	 top: 10px;
 	 color: #a9cd00;
 }
-::-webkit-input-placeholder { /* WebKit browsers */
-    color:    #a9cd00;
-}
-:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-   color:    #a9cd00;
-   opacity:  1;
-}
-::-moz-placeholder { /* Mozilla Firefox 19+ */
-   color:    #a9cd00;
-   opacity:  1;
-}
-:-ms-input-placeholder { /* Internet Explorer 10+ */
-   color:    #a9cd00;
-}
-
 .form-control:focus {
 	border-color: #a9cd00;
 	outline: 0;
@@ -509,10 +494,25 @@ header{
 	color: #586906;
 }
 .menu-collapse{
-	display:none;
+	position:absolute;
+	top: 100px;
+    left: -900px;
+	font-size: 1.3em;
+	z-index: 1;
 }
-ul.menus li{
-    margin-right: 50px;
+.menu-collapse li {
+	background:#a9cd00;
+}
+.menu-collapse li a{
+	color:#000000;
+} 
+.list-group-item {
+	position: relative;
+	display: block;
+	padding: 10px 15px;
+	margin-bottom: -1px;
+	background-color: white;
+	border: 1px solid #DDD;
 }
 /*  Styles for header ends */
 
