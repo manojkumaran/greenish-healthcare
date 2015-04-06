@@ -36,7 +36,7 @@
 					
 					<div class="col-xs-2 col-sm-2 hidden-md hidden-lg collapse-icon">
 						<i class="glyphicon glyphicon-align-justify"></i>
-	
+					</div>
 							<ul class="col-xs-8 col-sm-6 hidden-md hidden-lg menu-collapse list-unstyled list-group ">
 								<li class="list-group-item"><a href="#">Products</a></li>
 								<li class="list-group-item"><a href="#">R&D </a></li>
@@ -44,8 +44,6 @@
 								<li class="list-group-item"><a href="#">Enquiry</a></li>
 								<li class="list-group-item"><a href="#">Contact Us</a></li>
 							</ul>
-			
-					</div>
 				
 			<!-- Search Field -->
 			

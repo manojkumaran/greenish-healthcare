@@ -49,7 +49,7 @@
 		<script>
 	$(document).ready(function(){
 		/* Script for collapsible icon in small devices */
-		$('.collapse-icon span i').click(function() {
+		$('.collapse-icon i').click(function() {
 			var $lefty = $(".menu-collapse");
 			$lefty.animate({
 			  left: parseInt($lefty.css('left'),10) == 0 ?
