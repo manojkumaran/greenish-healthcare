@@ -1,38 +1,32 @@
-<!doctype html>
-<html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<?php include("header.php"); ?>
 
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
+<!--\ SLIDER BEGIN /-->
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-    </head>
-    <body>
-		<?php include("header.php"); ?>
+<!--\ SLIDER END /-->	
 
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
-	
-		<?php include("footer.php"); ?>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-        <script src="js/main.js"></script>
+<!--\ BLOCKQUOTE  BEGIN /-->
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='https://www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-        </script>
-    </body>
-</html>
+<!--\ BLOCKQUOTE  END /-->
+
+<!--\ ABOUT GREENISH HEALTHCARE BEGIN /-->
+<p>
+Greenish India is focusing towards promoting healthier and safer phytomedicines ( plant based medecine with no chemicals added) since herbal renaissance is blooming across the world. 
+Herbal medicine acts as either “preventive” or as “Nutritive”. Hence we are always delighted to offer a variety of products with superior quality that are made from high quality Black Seeds.
+We are committed to provide a Supreme range of Black seed herbal products that comes along the human life for their well being. 
+Black seed is a Prophetic medicine to strengthen the immune system and various organs of the human body. 
+It’s a wonder herb that has been used for centuries throughout the world for its many therapheutic potentials.
+Our objective is to provide you with a product that supports and promotes natural healing through an eco friendly way.
+Our products are developed under the able guidance of leading phytochemists and Pharmacognosists, 
+so as to make our products internationally acceptable and recognizable and to provide an evidence based relief to the ailing society.
+The present products developed are based on black cumin seeds, a prophetic medicines to contribute significantly to the healthcare of human society.
+Our products are free from adulterants and substitutes. Our products are prepared employing good laboratory and manufacturing products.
+We humbly take pride in declaring that we were the leading exporter of Black Cumin Seed Oil from India. 
+( courtesy :  Infodrive India , Source :  Statistics driven from  Dept of Customs, Govt. of India )
+</p>
+<!--\ ABOUT GREENISH HEALTHCARE END /-->
+
+<!--\ TESTIMONIALS BEGIN /-->
+
+<!--\ TESTIMONIALS END /-->
+<?php include("footer.php"); ?>
+
