@@ -278,3 +278,15 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+
+/**
+	Homepage styles
+**/
+ .about-us{
+	text-align: justify;
+ }
+ 
+ section h2{
+	text-align: center;
+ }
