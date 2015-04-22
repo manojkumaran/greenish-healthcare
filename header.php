@@ -16,9 +16,10 @@
 		<link rel="stylesheet" href="css/jquery.bxslider.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-		 <script src="js/vendor/html5shiv.min.js"></script>
-		 <script src="js/vendor/jquery.bxslider.min.js"></script>
-		 <script src="js/main.js"></script>
+		<script src="js/vendor/html5shiv.min.js"></script>
+		<script src="js/vendor/jquery.bxslider.min.js"></script>
+		<script src="js/vendor/jquery-1.11.2.min.js"></script>
+		<script src="js/main.js"></script>
 		 
     </head>
     <body>
