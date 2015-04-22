@@ -1,13 +1,15 @@
 <?php include("header.php"); ?>
 <!--\ SLIDER BEGIN /-->
-
-		<ul class="bxslider">
-			<li> <img src="img/image1.png" alt="sliderimage"  /> </li>
-			<li> <img src="img/image2.png" alt="sliderimage"  /> </li>
-			<li> <img src="img/image3.png" alt="sliderimage"  /> </li>
-			<li> <img src="img/image4.png" alt="sliderimage"  /> </li>
-		</ul>
-
+<div class="container">
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<ul class="bxslider">
+				<li> <img src="img/image1.png" alt="sliderimage"  /> </li>
+				<li> <img src="img/image2.png" alt="sliderimage"  /> </li>
+				<li> <img src="img/image3.png" alt="sliderimage"  /> </li>
+				<li> <img src="img/image4.png" alt="sliderimage"  /> </li>
+			</ul>
+	</div>
+</div>
 <!--\ SLIDER END /-->	
 
 <!--\ BLOCKQUOTE  BEGIN /-->
