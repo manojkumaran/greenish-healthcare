@@ -1,7 +1,14 @@
 <?php include("header.php"); ?>
-
+<div class="container">
 <!--\ SLIDER BEGIN /-->
-
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		<ul class="bxslider">
+			<li> <img src="image1.png" alt="sliderimage"  /> </li>
+			<li> <img src="image2.png" alt="sliderimage"  /> </li>
+			<li> <img src="image3.png" alt="sliderimage"  /> </li>
+			<li> <img src="image4.png" alt="sliderimage"  /> </li>
+		</ul>
+</div>
 <!--\ SLIDER END /-->	
 
 <!--\ BLOCKQUOTE  BEGIN /-->
@@ -38,5 +45,7 @@
 <!--\ TESTIMONIALS BEGIN /-->
 
 <!--\ TESTIMONIALS END /-->
+
+</div><!-- Container Ends-->
 <?php include("footer.php"); ?>
 
