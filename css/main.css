@@ -305,3 +305,60 @@ textarea {
 .about-us-wrap{
 	background: url('../img/bg1.png') no-repeat top left;
 }
+
+/*Footer styles*/
+
+form input{
+	display:block;
+	margin-bottom:10px;
+}
+.social-icons,.contacts{
+	text-align:right;
+	line-height:2em;
+}
+.social-icons img{
+	margin-left:10px;
+	cursor:pointer;
+}
+.social-icons{
+	margin-bottom:10px;
+}
+.action-btn-footer{
+	background:#abcc00;
+	color:#fff;
+	padding:5px 15px 5px 15px;
+	border:none;
+	float:right;
+	margin-top:10px;
+}
+.address-block img{
+	width: 28px;
+	height: 37px;
+	margin-right:10px;
+	margin-right: 12px;
+	margin-left: 15px;
+  }
+.address-block span {
+	font-size:18px;
+}
+.footer_contact {
+	font-size:18px;
+	padding-bottom: 15px;
+}
+.address-content{
+	margin-top:15px;
+	text-align:center;
+	line-height:2em;
+}
+.form-control-wrapper{
+	padding:0;
+}
+@media screen and (max-width:992px){
+	.social-icons,.contacts,.address-block,.form-footer{
+	text-align:center;
+}
+.social-icons-block,.address-block{
+	margin-top:38px;
+}
+}
+
