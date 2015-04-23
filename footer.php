@@ -1,22 +1,19 @@
 <footer>
 		<div class="container">
 		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 form-footer clearfix">
-			<div class="footer_contact">CONTACT US</div>
+			<h3 class="footer_contact">CONTACT US</h3>
 			<form>
 				<input type="text" class="form-control" placeholder="NAME" />
 				<input type="text" class="form-control"placeholder="CONTACT NUMBER"/>
 				<input type="text" class="form-control"placeholder="E-MAIL" />
 				<textarea class="form-control"placeholder="COMMENTS" ></textarea>
-				<input type="submit" value="SEND" class="action-btn-footer"/> 
+				<input type="submit" value="SEND" class="action-btn-footer btn btn-primary"/> 
 			</form>
 		</div>
 		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-3 address-block clearfix">
-			<img src="img/about-img.png"/><span><strong>Greenish</strong> HealthCare</span><br>
-			<div class="address-content">Greenish (India) Trades Pvt Ltd<br>
-			New no 35 Old no 15,<br>
-			Santhome High Road<br>
-			Mylapore
-			<br>Chennai-600004</div>
+			<img src="img/about-img.png" class="inline-block"/><h3>Greenish (India) Trades Pvt. Ltd.</h3>
+			<p class="address-content">New no 35 Old no 15, 
+			Santhome High Road,	Mylapore, Chennai-600004</p>
 		</div>
 		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 social-icons-block">
 			<div class="row col-lg-12 social-icons">
@@ -25,12 +22,11 @@
 				<img src="img/soc-g.png"/>
 			</div>
 			<div class="row col-lg-12 contacts">
-				<div>
-					Mobile:+(91)-960010199.9941111000</div>
-				<div>	Phone:+91-44-24672095</div>
-				<div>	Fax:+91-44-24670669</div>
-				<div>	Customer Care:9600101999</div>
-				<div>	Email:greenishindiacare@gmail.com</div>
+				<p>		Mobile: +(91)-960010199.9941111000</p>
+				<p>	Phone: +91-44-24672095</p>
+				<p>	Fax: +91-44-24670669</p>
+				<p>	Customer Care: 9600101999</p>
+				<p>	Email: greenishindiacare@gmail.com</p>
 				
 			</div>
 		</div>
