@@ -293,6 +293,14 @@ textarea {
 .inline-block{
 	display: inline-block;
 }
+.list-unstyled{
+	list-style-type: none;
+}
+.list-inline,
+ul.list-inline li{
+	display: inline;
+}
+
 /**
 	Common styles
 **/
