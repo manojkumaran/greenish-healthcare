@@ -389,6 +389,111 @@ form input{
 .form-control{
 	font-size: 0.83em;
 }
+
+/*  Styles for header starts */
+
+header{
+	background:#ffffff;
+	color:#000000;
+	font-family:"Georgia";
+	padding:30px 10px 12px 10px;
+	border-bottom:2px solid #dcdbd3;
+}
+ .site-logo img{
+	width:43px;
+	height:54px;
+}
+.search-field input{
+	position:relative;
+	border-style: solid;
+	border-color:#a9cd00;
+}
+.search-icon{
+	position:absolute;
+	 right: 33px;
+	 top: 10px;
+	 color: #a9cd00;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #a9cd00;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #a9cd00;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #a9cd00;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    #a9cd00;
+}
+
+.form-control:focus {
+	border-color: #a9cd00;
+	outline: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.menu-content {
+	margin-top: 20px;
+	text-align: center;
+	font-size: 20px;
+}
+.menus li a{
+	padding:0px 38px 20px 38px;
+	color:#000;
+	text-decoration:none;
+}
+.menus li a:hover{
+	color:#a9cd00;
+	border-bottom:5px solid #a9cd00;
+}
+.logo-title{
+	font-family:Georgia;
+	font-size:30px;
+	font-weight:bold;
+	color:#a9cd00;
+	padding: 0px 9px 0px 12px;
+}
+.logo-text{
+	font-family:Georgia;
+	font-size:30px;
+	font-weight:normal;
+}
+.collapse-icon {
+	font-size:32px;
+	text-align:center;
+	cursor:pointer;
+	color: #586906;
+}
+.menu-collapse{
+	display:none;
+}
+/*  Styles for header ends */
+/*  
+	Slider Css 
+*/
+.bx-wrapper .bx-viewport {
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow:none;
+
+
+
+
+
+
+/*  media queries for header starts */
+@media screen  and (min-width: 475px) and (max-width: 992px){
+	 .site-logo {
+		text-align:center;
+		margin-bottom:20px;
+	 }
+	
+	}
+/*  media queries for header ends */
+
 /**
 	MEDIA QUERIES
 **/

@@ -45,5 +45,16 @@
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X','auto');ga('send','pageview'); */
         </script>
+		<script>
+	$(document).ready(function(){
+		$(".collapse-icon i").click(function(){
+			console.log("hi");
+			console.log($(this).next(".menu-collapse"));
+			$(this).next(".menu-collapse").css("display","block");
+		});
+	
+	})
+</script>
+
     </body>
 </html>

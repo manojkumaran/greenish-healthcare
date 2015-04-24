@@ -21,3 +21,64 @@
 		 
     </head>
     <body>
+	
+	<header>
+	<div class="container">
+			<div class="logo-content clearfix col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			
+			<!-- logo -->
+			
+					<div class="col-xs-12 col-sm-12 col-md-6 col-md-6 site-logo">
+						<img src="img/about-img.png" alt="logo"/><span class="logo-title">Greenish </span><span class="logo-text">HealthCare </span>
+					</div>
+				
+			<!-- Collapsible Icon for small devices -->
+					
+					<div class="col-xs-2 col-sm-2 hidden-md hidden-lg collapse-icon">
+						<i class="glyphicon glyphicon-align-justify"></i>
+	
+							<ul class="menu-collapse list-unstyled list-group ">
+								<li class="list-group-item"><a href="#">Products</a></li>
+								<li class="list-group-item"><a href="#">R&D </a></li>
+								<li class="list-group-item"><a href="#">Testimonials</a></li>
+								<li class="list-group-item"><a href="#">Enquiry</a></li>
+								<li class="list-group-item"><a href="#">Contact Us</a></li>
+							</ul>
+			
+					</div>
+				
+			<!-- Search Field -->
+			
+					<div class="col-xs-10 col-sm-10 col-md-4 col-lg-4 search-field pull-right  display-inline">
+						<input type="text" name="search" class="form-control" placeholder="Search">
+			            <i class="glyphicon glyphicon-search search-icon"></i>
+					</div>
+				
+			</div>
+			
+			<!--  Menu Contents for large and medium devices -->
+			
+				<div class="clearfix menu-content hidden-xs hidden-sm  col-md-12 col-lg-12">
+					<ul class="menus list-unstyled list-inline">
+						<li><a href="#">Products</a></li>
+						<li><a href="#">R&D </a></li>
+						<li><a href="#">Testimonials</a></li>
+						<li><a href="#">Enquiry</a></li>
+						<li><a href="#">Contact Us</a></li>
+					</ul>
+				</div>
+			
+			<!--  Menu Contents for small and extra small devices -->
+					
+				
+		
+	</div>	
+</header>
+
+	
+	
+	
+	
+	
+	</body>
+	</html>
