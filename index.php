@@ -1,6 +1,6 @@
 <?php include("header.php"); ?>
 <!--\ SLIDER BEGIN /-->
-<div class="container">
+<section class="container slider_wrapper">
 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 			<ul class="bxslider">
 				<li> <img src="img/image1.png" alt="sliderimage"  /> </li>
@@ -8,11 +8,29 @@
 				<li> <img src="img/image3.png" alt="sliderimage"  /> </li>
 				<li> <img src="img/image4.png" alt="sliderimage"  /> </li>
 			</ul>
+	</section>
 	</div>
-</div>
 <!--\ SLIDER END /-->	
 
 <!--\ BLOCKQUOTE  BEGIN /-->
+
+<section class="container">
+
+	<article class="hidden-xs hidden-sm col-md-3 col-lg-3">
+			<img src="img/bg3.png" alt="greenish healthcare" />
+	
+	</article>
+	
+	<article class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+			<blockquote>
+				<p>Use the Black Seed for indeed, it is a cure for all diseases except death.</p>
+			</blockquote>
+			<p class="blockquote_sub">sahih Bukari 7:591</p>
+			<p class="blockquote_sub">-Prophet Muhammad ( Peace Be Upon him )</p>
+	
+	</article>
+
+</section>
 
 <!--\ BLOCKQUOTE  END /-->
 
