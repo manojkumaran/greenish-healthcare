@@ -479,6 +479,18 @@ header{
 	display:none;
 }
 /*  Styles for header ends */
+
+/* Styles for Testimonials */
+div.testimonial-content { font-size: 15px; line-height: 30px; font-family: Segoe UI; }
+div.testimonial-author:before { content: '-'; padding-right: 5px; }
+div.testimonial-author { text-align: right; padding-right: 10px; margin: 10px 0px 10px 0px; font-weight: bold; }
+
+.read-more-excerpt { transition: all 2s ease; }
+.read-more { transition: all 2s ease; width: 100%; overflow: hidden; transition: all 1s ease; padding-bottom: 10px; }
+.read-more-link { transition: all 2s ease; border-bottom: solid 1px; padding-bottom: 10px; position: relative; display: inline-block; text-align: right; font-size: 11px; color: #709631; padding: 0; line-height: 13px; margin: 5px 20px 5px 0px; }
+.read-more-link:hover { cursor: pointer; color: #c0392b; }
+/* Styles for Testimonials */
+
 /*  
 	Slider Css 
 */
