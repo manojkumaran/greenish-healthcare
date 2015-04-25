@@ -305,17 +305,19 @@ ul.list-inline li{
 	Common styles
 **/
 h1,h2,h3,h4,h5,h6{font-family:"open_sanssemibold","Segoe UI",sans}
-section{margin-bottom: 30px;}
+section{margin-bottom: 100px;}
 .btn-primary{
 	font-family: "open_sansbold", "Segoe UI", sans;
 }
+
 /**
 	Homepage styles
 **/
 p{
 	padding:0;
 	margin:0;
-	font-size: 0.85em;
+	font-size: 0.9em;
+    line-height: 1.8em;
 }
  .about-us{
 	text-align: justify;
@@ -323,6 +325,7 @@ p{
  section h2{
 	text-align: center;
 	border-bottom: 1px solid #CCC;
+    margin-bottom: 75px;
  }
  section h2 span{
 	position: relative;
@@ -339,6 +342,13 @@ article > p{
   font-family: "open_sansregular","Segoe UI",sans;
 }
 /*Footer styles*/
+footer{
+    padding-top: 20px;
+    -webkit-box-shadow: 0 12px 37px;
+    -moz-box-shadow: 0 12px 37px;
+    -o-box-shadow: 0 12px 37px;
+    box-shadow: 0 12px 37px;
+}
 .footer_contact{
 	margin-top: 0;
 }
@@ -401,11 +411,11 @@ form input{
 /*  Styles for header starts */
 
 header{
-	background:#ffffff;
-	color:#000000;
-	font-family:"Georgia";
-	padding:30px 10px 12px 10px;
-	border-bottom:2px solid #dcdbd3;
+  background: #ffffff;
+  color: #000000;
+  padding: 30px 10px 12px 10px;
+  box-shadow: 0 -14px 35px;
+  margin-bottom: 12px;
 }
  .site-logo img{
 	width:43px;
@@ -443,15 +453,26 @@ header{
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
+
+/**
+    MENU CODE
+**/
 .menu-content {
-	margin-top: 20px;
+	margin: 60px 0 30px 0;
 	text-align: center;
 	font-size: 20px;
 }
 .menus li a{
-	padding:0px 38px 20px 38px;
-	color:#000;
-	text-decoration:none;
+  color: #000;
+  text-decoration: none;
+  font-family: "open_sanssemibold";
+  padding: 13px 13px 20px 13px;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  -webkit-transition: border ease-in-out .15s;
+    -moz-transition: border ease-in-out .15s;
+    -o-transition: border ease-in-out .15s;
+    transition: border ease-in-out .15s;
 }
 .menus li a:hover{
 	color:#a9cd00;
@@ -477,6 +498,9 @@ header{
 }
 .menu-collapse{
 	display:none;
+}
+ul.menus li{
+    margin-right: 50px;
 }
 /*  Styles for header ends */
 
