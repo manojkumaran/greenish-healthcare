@@ -26,7 +26,7 @@ Element.prototype.showMore = function () {
 	this.remove();
 };
 
-document.getElementById('testimonial').addEventListener ( 'click', function ( event ) {
+document.body.addEventListener ( 'click', function ( event ) {
 	var tgt = event.target;
 	if ( tgt.className === 'read-more-link' ) {
 		tgt.showMore();
