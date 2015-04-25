@@ -44,7 +44,19 @@
 <!--\ ABOUT GREENISH HEALTHCARE END /-->
 
 <!--\ TESTIMONIALS BEGIN /-->
-
+<section class="container" id="testimonial">
+	<h2> <span>Testimonials</span></h2>
+	<section class="row">
+		<article class="testimonial col-xs-12 col-md-6">
+			<div class="testimonial-content">Greenish India is focusing towards promoting healthier and safer phytomedicines plant based Greenish India is focusing towards promoting healthier and safer phytomedicines</div>
+			<div class="testimonial-author">Lorem</div>
+		</article>
+		<article class="testimonial col-xs-12 col-md-6">
+			<div class="testimonial-content">Greenish India is focusing towards promoting healthier and safer phytomedicines plant based Greenish India is focusing towards promoting healthier and safer phytomedicines</div>
+			<div class="testimonial-author">Lorem</div>
+		</article>
+	</section>
+</section>
 <!--\ TESTIMONIALS END /-->
 
 
