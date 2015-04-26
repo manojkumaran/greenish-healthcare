@@ -1,4 +1,7 @@
 <?php include("includes/header.php"); ?>
+<link rel="stylesheet" href="css/owl.carousel.css">
+<link rel="stylesheet" href="css/owl.theme.css">
+<link rel="stylesheet" href="css/owl.transitions.css">
 <!--\ SLIDER BEGIN /-->
 <section class="container slider_wrapper">
 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -33,6 +36,9 @@
 </div>
 
 <!--\ BLOCKQUOTE  END /-->
+<!--\ PRODUCT CAROUSEL  BEGIN /-->
+<?php include("includes/carousel.php"); ?>
+<!--\ PRODUCT CAROUSEL  END /-->
 
 <!--\ ABOUT GREENISH HEALTHCARE BEGIN /-->
 <div class="about-us-wrap">

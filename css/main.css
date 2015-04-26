@@ -591,6 +591,10 @@ blockquote.philosophy{
 	 background-size: 100px;
 }
 
+/**
+	OWL CAROUSEL
+**/
+
 
 /*  media queries for header starts */
 @media screen  and (min-width: 475px) and (max-width: 992px){
