@@ -1,4 +1,4 @@
-<?php include("header.php"); ?>
+<?php include("includes/header.php"); ?>
 <!--\ SLIDER BEGIN /-->
 <section class="container slider_wrapper">
 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -61,9 +61,9 @@
 </div>
 <!--\ ABOUT GREENISH HEALTHCARE END /-->
 
-<?php include("testimonial.php"); ?>
+<?php include("includes/testimonial.php"); ?>
 
 
 
-<?php include("footer.php"); ?>
+<?php include("includes/footer.php"); ?>
 
