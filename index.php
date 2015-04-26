@@ -3,17 +3,17 @@
 <section class="container slider_wrapper">
 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 			<ul class="bxslider">
-				<li> <img src="img/image1.png" alt="sliderimage"  /> </li>
-				<li> <img src="img/image2.png" alt="sliderimage"  /> </li>
-				<li> <img src="img/image3.png" alt="sliderimage"  /> </li>
-				<li> <img src="img/image4.png" alt="sliderimage"  /> </li>
+				<li> <img src="img/placeholder1110x340.jpg" alt="sliderimage"  /> </li>
+				<li> <img src="img/placeholder1110x340.jpg" alt="sliderimage"  /> </li>
+				<li> <img src="img/placeholder1110x340.jpg" alt="sliderimage"  /> </li>
+				<li> <img src="img/placeholder1110x340.jpg" alt="sliderimage"  /> </li>
 			</ul>
 	</section>
 	</div>
 <!--\ SLIDER END /-->	
 
 <!--\ BLOCKQUOTE  BEGIN /-->
-
+<div class="quote-wrap">
 <section class="container">
 
 	<article class="hidden-xs hidden-sm col-md-3 col-lg-3">
@@ -22,15 +22,15 @@
 	</article>
 	
 	<article class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
-			<blockquote>
+			<blockquote class="philosophy">
 				<p>Use the Black Seed for indeed, it is a cure for all diseases except death.</p>
 			</blockquote>
-			<p class="blockquote_sub">sahih Bukari 7:591</p>
-			<p class="blockquote_sub">-Prophet Muhammad ( Peace Be Upon him )</p>
+			<p class="blockquote_sub">Sahih Bukari 7:591</p>
+			<p class="blockquote_sub">- Prophet Muhammad ( Peace Be Upon him )</p>
 	
 	</article>
-
 </section>
+</div>
 
 <!--\ BLOCKQUOTE  END /-->
 
@@ -61,21 +61,7 @@
 </div>
 <!--\ ABOUT GREENISH HEALTHCARE END /-->
 
-<!--\ TESTIMONIALS BEGIN /-->
-<section class="container" id="testimonial">
-	<h2> <span>Testimonials</span></h2>
-	<section class="row">
-		<article class="testimonial col-xs-12 col-md-6">
-			<div class="testimonial-content">Greenish India is focusing towards promoting healthier and safer phytomedicines plant based Greenish India is focusing towards promoting healthier and safer phytomedicines</div>
-			<div class="testimonial-author">Lorem</div>
-		</article>
-		<article class="testimonial col-xs-12 col-md-6">
-			<div class="testimonial-content">Greenish India is focusing towards promoting healthier and safer phytomedicines plant based Greenish India is focusing towards promoting healthier and safer phytomedicines</div>
-			<div class="testimonial-author">Lorem</div>
-		</article>
-	</section>
-</section>
-<!--\ TESTIMONIALS END /-->
+<?php include("testimonial.php"); ?>
 
 
 

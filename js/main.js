@@ -41,7 +41,7 @@ jQuery.fn.extend ({
 	}
 });
 jQuery('.testimonial-content').readMore({
-	'height': 30
+	'height': 55
 });
 
 /** TESTIMONIAL **/

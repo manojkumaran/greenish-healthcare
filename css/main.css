@@ -309,10 +309,18 @@ section{margin-bottom: 100px;}
 .btn-primary{
 	font-family: "open_sansbold", "Segoe UI", sans;
 }
-
+blockquote{
+	text-align: center;
+}
 /**
 	Homepage styles
 **/
+body{
+		background-image: url('../img/dotted-bk.jpg'),url('../img/dottedbk-inv.jpg');
+		background-repeat: repeat-x;
+		 background-position: left top, right bottom;
+		background-color: #fff;
+}
 p{
 	padding:0;
 	margin:0;
@@ -348,6 +356,8 @@ footer{
     -moz-box-shadow: 0 12px 37px;
     -o-box-shadow: 0 12px 37px;
     box-shadow: 0 12px 37px;
+	background:  url('../img/blurbk.jpg') no-repeat #edede9;
+	background-size: cover;
 }
 .footer_contact{
 	margin-top: 0;
@@ -411,7 +421,8 @@ form input{
 /*  Styles for header starts */
 
 header{
-  background: #ffffff;
+  	background:  url('../img/blurbk.jpg') no-repeat #edede9;
+	background-size: cover;
   color: #000000;
   padding: 30px 10px 12px 10px;
   box-shadow: 0 -14px 35px;
@@ -425,6 +436,7 @@ header{
 	position:relative;
 	border-style: solid;
 	border-color:#a9cd00;
+	font-family: "open_sanslight";
 }
 .search-icon{
 	position:absolute;
@@ -511,7 +523,7 @@ div.testimonial-author { text-align: right; padding-right: 10px; margin: 10px 0p
 
 .read-more-excerpt { transition: all 2s ease; }
 .read-more { transition: all 2s ease; width: 100%; overflow: hidden; transition: all 1s ease; padding-bottom: 10px; }
-.read-more-link { transition: all 2s ease; border-bottom: solid 1px; padding-bottom: 10px; position: relative; display: inline-block; text-align: right; font-size: 11px; color: #709631; padding: 0; line-height: 13px; margin: 5px 20px 5px 0px; }
+.read-more-link { transition: all 2s ease; border-bottom: solid 1px; padding-bottom: 10px; position: relative; display: inline-block; text-align: right;  color: #709631; padding: 0; line-height: 13px; margin: 5px 20px 5px 0px; }
 .read-more-link:hover { cursor: pointer; color: #c0392b; }
 /* Styles for Testimonials */
 
@@ -522,6 +534,21 @@ div.testimonial-author { text-align: right; padding-right: 10px; margin: 10px 0p
 	-moz-box-shadow: none;
 	-webkit-box-shadow: none;
 	box-shadow:none;
+	border: none;
+	background: transparent;
+}
+.bx-wrapper .bx-pager.bx-default-pager a{
+	background: #a9cd00;
+	width: 15px;
+	height: 15px;
+	border-radius: 10px;
+}
+.bx-wrapper .bx-pager.bx-default-pager a.active{
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	background: #FFF;
+	border:  1px solid #a9cd00;
 }
 .slider_wrapper{
 	margin-bottom:50px;
@@ -550,12 +577,19 @@ blockquote:after{
 }
 blockquote p {
   display: inline;
+  font-size: 2em;
 }
 .blockquote_sub{
-	margin-left:2.25em;
+	text-align: right; 	
 }
-
-
+blockquote.philosophy{
+	 margin-right:0;
+	 padding-right:0;
+}
+.quote-wrap{
+	 background: url('../img/bg2.png') no-repeat bottom right;
+	 background-size: 100px;
+}
 
 
 /*  media queries for header starts */
