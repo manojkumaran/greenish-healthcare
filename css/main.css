@@ -616,10 +616,6 @@ text-align:center;
 	border:1px solid #E2DFDF;
 	border-radius: 20px;
 	cursor:pointer;
-	padding-bottom:30px;
-}
-.product_img img{
-	display:inline-block;
 }
 .product_img {
 	text-align:center;
@@ -631,6 +627,8 @@ text-align:center;
 .product_img a{
 	color:#000;
 	text-decoration:none;
+	border:1px solid #fff;
+	border-radius:20px;
 	display:inline-block;
 	padding-top: 15px;
 }
