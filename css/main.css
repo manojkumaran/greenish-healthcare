@@ -631,7 +631,8 @@ text-align:center;
 .product_img a{
 	color:#000;
 	text-decoration:none;
-	display:block;
+	display:inline-block;
+	padding-top: 15px;
 }
 /*  media queries for header starts */
 
