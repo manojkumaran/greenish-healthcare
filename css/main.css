@@ -594,6 +594,9 @@ blockquote.philosophy{
 /**
 	OWL CAROUSEL
 **/
+.item{
+text-align:center;
+}
 .item p {
   text-align: center;
   font-size: 1.25em;
