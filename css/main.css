@@ -612,7 +612,7 @@ text-align:center;
 	text-transform:capitalize;
 }
 .product_img a:hover{
-	border:1px solid #E2DFDF;
+	border:1px solid #a9cd00;
 	border-radius: 20px;
 	cursor:pointer;
 }
