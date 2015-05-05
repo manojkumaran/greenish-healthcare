@@ -10,7 +10,7 @@
 				<input type="submit" value="SEND" class="action-btn-footer btn btn-primary"/> 
 			</form>
 		</div>
-		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-3 address-block clearfix">
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-3  col-lg-offset-1 address-block clearfix">
 			<img src="img/about-img.png" class="inline-block"/><h3>Greenish (India) Trades Pvt. Ltd.</h3>
 			<p class="address-content">New no 35 Old no 15, 
 			Santhome High Road,	Mylapore, Chennai-600004</p>
