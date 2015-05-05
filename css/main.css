@@ -631,6 +631,27 @@ text-align:center;
 	padding-top: 15px;
 	padding-bottom: 20px;
 }
+/**
+	PDP CSS 
+**/
+.product_heading h3{
+	margin-bottom:1em;
+}
+.product_heading p{
+	font-size: 1.2em;
+}
+.product_details label{
+	font-size: 1.3em;
+	color:#abcc00;
+	margin-top:1.5em;
+	font-weight:normal;
+}
+
+
+
+
+
+
 /*  media queries for header starts */
 @media screen  and (min-width: 320px) and (max-width: 768px){
 
