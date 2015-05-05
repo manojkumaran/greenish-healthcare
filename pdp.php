@@ -18,7 +18,7 @@
 	<div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 product_heading">
 	<h3>Greenish Safeway</h3>
 	<p> Herbal vital Capsule - 100% Natural </p>
-	<div class="product_details">
+	<div class="product_details col-lg-6">
 	<label>PACKING</label>
 	<p>60 Capsules per bottle</p>
 	<label>DIRECTION FOR USE</label>
