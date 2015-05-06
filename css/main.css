@@ -300,7 +300,9 @@ textarea {
 ul.list-inline li{
 	display: inline;
 }
-
+.underline{
+	border-bottom: 1px solid;
+}
 /**
 	Common styles
 **/
@@ -559,6 +561,7 @@ blockquote {
   padding: 0.5em 10px;
   quotes: "\201C""\201D""\2018""\2019";
   font-size: 1.25em;
+  border: none;
 }
 blockquote:before {
   color: #ccc;
@@ -648,12 +651,17 @@ text-align:center;
 	margin-top:1.5em;
 	font-weight:normal;
 }
-
 .product_details{
 	background: #FBF9F2;
   padding-bottom: 20px;
 }
-
+.breadcrumb{
+	background: none;
+}
+.pdt-main img{
+	width: 300px;
+	margin-top: 21px;
+}
 
 
 
