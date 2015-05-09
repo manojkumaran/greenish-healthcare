@@ -12,7 +12,7 @@
 
         <link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="css/bootstrap-theme.css">
 		<link rel="stylesheet" href="css/jquery.bxslider.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
@@ -39,7 +39,8 @@
 					</div>
 							<ul class="col-xs-8 col-sm-6 hidden-md hidden-lg menu-collapse list-unstyled list-group ">
 								<li class="list-group-item"><a href="#">Products</a></li>
-								<li class="list-group-item"><a href="#">R&D </a></li>
+								<li class="list-group-item"><a href="#">R&amp;D </a></li>
+                                <li class="list-group-item"><a href="#"> About Us </a></li>
 								<li class="list-group-item"><a href="#">Testimonials</a></li>
 								<li class="list-group-item"><a href="#">Enquiry</a></li>
 								<li class="list-group-item"><a href="#">Contact Us</a></li>
@@ -59,7 +60,8 @@
 				<div class="clearfix menu-content hidden-xs hidden-sm  col-md-12 col-lg-12">
 					<ul class="menus list-unstyled list-inline">
 						<li><a href="#">Products</a></li>
-						<li><a href="#">R&D </a></li>
+						<li><a href="#">R&amp;D </a></li>
+                        <li><a href="#"> About Us </a></li>                        
 						<li><a href="#">Testimonials</a></li>
 						<li><a href="#">Enquiry</a></li>
 						<li><a href="#">Contact Us</a></li>

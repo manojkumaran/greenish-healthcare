@@ -9,6 +9,21 @@ $(document).ready(function(){
 		itemsDesktop : [1199,3],
 		itemsDesktopSmall : [979,3]
 		});
+  
+    
+       $('.tabs .tab-links a').on('click', function(e)  {
+      
+        var currentAttrValue = jQuery(this).attr('href');
+        console.log(currentAttrValue);
+        // Show/Hide Tabs
+        $(currentAttrValue).fadeIn().siblings().fadeOut('fast');
+ 
+        // Change/remove current tab to active
+        $(this).parent('li').addClass('active').siblings().removeClass('active');
+ 
+        e.preventDefault();
+    });
+
 
 });
 
