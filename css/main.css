@@ -431,6 +431,10 @@ header{
   box-shadow: 0 -14px 35px;
   margin-bottom: 12px;
 }
+.site-logo a{
+    text-decoration: none;
+    color: #abcc00;
+}
  .site-logo img{
 	width:43px;
 	height:54px;
@@ -474,7 +478,8 @@ header{
     -o-transition: border ease-in-out .15s;
     transition: border ease-in-out .15s;
 }
-.menus li a:hover{
+.menus li a:hover,
+.menus li.active a{
 	color:#a9cd00;
 	border-bottom:5px solid #a9cd00;
 }

@@ -29,7 +29,7 @@
 			<!-- logo -->
 			
 					<div class="col-xs-12 col-sm-12 col-md-6 col-md-6 site-logo">
-						<img src="img/about-img.png" alt="logo"/><span class="logo-title">Greenish </span><span class="logo-text">HealthCare </span>
+						<a href="index.php"><img src="img/about-img.png" alt="logo"/><span class="logo-title">Greenish </span><span class="logo-text">HealthCare </span></a>
 					</div>
 				
 			<!-- Collapsible Icon for small devices -->
@@ -59,7 +59,7 @@
 			
 				<div class="clearfix menu-content hidden-xs hidden-sm  col-md-12 col-lg-12">
 					<ul class="menus list-unstyled list-inline">
-						<li><a href="#">Products</a></li>
+						<li><a href="products.php">Products</a></li>
 						<li><a href="#">R&amp;D </a></li>
                         <li><a href="#"> About Us </a></li>                        
 						<li><a href="#">Testimonials</a></li>
