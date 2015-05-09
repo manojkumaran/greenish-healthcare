@@ -4,8 +4,8 @@
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 		<ol class="breadcrumb">
 			<li><a href="#">Home</a></li>
-			<li><a href="#">Library</a></li>
-			<li class="active">Data</li>
+			<li><a href="#">Products</a></li>
+			<li class="active">Greenish Safeway</li>
 		</ol>
 		</div>
 	</article>
@@ -22,8 +22,10 @@
 	<label>PACKING</label>
 	<p>60 Capsules per bottle</p>
 	<label>DIRECTION FOR USE</label>
-	<p>One Capsule morning before breakfast</p>
-	<p>One Capsule night before dinner</p>
+        <ul>
+            <li>One Capsule morning before breakfast</li>
+            <li>One Capsule night before dinner</li>       
+        </ul>
 	
 	</div>
 	</div>
@@ -31,9 +33,11 @@
 </section>
 <section class="container">
 	<article class="row clearfix">
-		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-		Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-		</div>
+		<p class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+Greenish herbal a food supplement – Black Cumin Seed (Nigella Sativa L.) herbal powder has been on a natural health supplement for over 3000 Years.
+Black cumin Seeds and other ingredient provide immunity power for the body and acts as a natural source of energy.
+Greenish Herbal is manufacturing the best quality of Black cumin Seed herbal powder without adding any chemicals & additives and has no preservatives.
+		</p>
 	</article>
 </section>
 
