@@ -46,8 +46,8 @@
                                 <li class="list-group-item">
                                     <a href="#"> About Us </a>
                                         <ul class="mini-submenu">
-                                            <li> <a href="#"> About Greenish Healthcare </a></li>
-                                            <li> <a href="#"> About Founder </a></li>
+                                            <li> <a href="about-greenish.php"> About Greenish Healthcare </a></li>
+                                            <li> <a href="about-founder.php"> About Founder </a></li>
                                         </ul>
                                 </li>                                
 								<li class="list-group-item"><a href="#">Contact Us</a></li>
@@ -74,8 +74,8 @@
                         <li>
                             <a href="#"> About Us </a>
                                 <ul class="submenu">
-                                    <li> <a href="#"> About Greenish Healthcare </a></li>
-                                    <li> <a href="#"> About Founder </a></li>
+                                    <li> <a href="about-greenish.php"> About Greenish Healthcare </a></li>
+                                    <li> <a href="about-founder.php"> About Founder </a></li>
                                 </ul>
                            </li>                          
 						<li><a href="#">Contact Us</a></li>
