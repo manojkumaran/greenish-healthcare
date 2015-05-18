@@ -296,10 +296,6 @@ textarea {
 .list-unstyled{
 	list-style-type: none;
 }
-.list-inline,
-ul.list-inline li{
-	display: inline;
-}
 .underline{
 	border-bottom: 1px solid;
 }
@@ -465,6 +461,43 @@ header{
 	margin: 60px 0 30px 0;
 	text-align: center;
 	font-size: 20px;
+}
+ul.menus li .submenu{
+    display: none;
+      position: absolute;
+      list-style-type: none;
+      text-align: left;
+      margin: 0;
+      padding: 5px 20px;
+      background: #FFF;
+      border-radius: 5px;
+    font-size: 0.8em;
+}
+
+ul.menus li:hover .submenu{
+    display: block;
+}
+ul.menus li .submenu li a:hover{
+    border: none;
+}
+ul.menus li .submenu:after{
+    bottom: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(255, 255, 255, 0);
+  border-bottom-color: #ffffff;
+  border-width: 7px;
+  margin-left: -107px;
+}
+:after, :before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 .menus li a{
   color: #000;

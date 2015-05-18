@@ -38,11 +38,18 @@
 						<i class="glyphicon glyphicon-align-justify"></i>
 					</div>
 							<ul class="col-xs-8 col-sm-6 hidden-md hidden-lg menu-collapse list-unstyled list-group ">
+                                <li class="list-group-item"><a href="index.php">Home </a></li>
 								<li class="list-group-item"><a href="#">Products</a></li>
+                                <li class="list-group-item"><a href="#">Honors &amp; Awards</a></li>
 								<li class="list-group-item"><a href="#">R&amp;D </a></li>
-                                <li class="list-group-item"><a href="#"> About Us </a></li>
 								<li class="list-group-item"><a href="#">Testimonials</a></li>
-								<li class="list-group-item"><a href="#">Enquiry</a></li>
+                                <li class="list-group-item">
+                                    <a href="#"> About Us </a>
+                                        <ul class="mini-submenu">
+                                            <li> <a href="#"> About Greenish Healthcare </a></li>
+                                            <li> <a href="#"> About Founder </a></li>
+                                        </ul>
+                                </li>                                
 								<li class="list-group-item"><a href="#">Contact Us</a></li>
 							</ul>
 				
@@ -59,11 +66,18 @@
 			
 				<div class="clearfix menu-content hidden-xs hidden-sm  col-md-12 col-lg-12">
 					<ul class="menus list-unstyled list-inline">
+                        <li><a href="index.php">Home </a></li>
 						<li><a href="products.php">Products</a></li>
+                        <li><a href="#">Honors &amp; Awards</a></li>
 						<li><a href="#">R&amp;D </a></li>
-                        <li><a href="#"> About Us </a></li>                        
 						<li><a href="#">Testimonials</a></li>
-						<li><a href="#">Enquiry</a></li>
+                        <li>
+                            <a href="#"> About Us </a>
+                                <ul class="submenu">
+                                    <li> <a href="#"> About Greenish Healthcare </a></li>
+                                    <li> <a href="#"> About Founder </a></li>
+                                </ul>
+                           </li>                          
 						<li><a href="#">Contact Us</a></li>
 					</ul>
 				</div>
