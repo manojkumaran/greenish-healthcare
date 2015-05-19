@@ -711,7 +711,31 @@ text-align:center;
 	text-align:justify;
 }
 
-
+/* Contact Us */
+.contact-us{
+margin-bottom:100px;
+}
+.address-block1 img{
+  width: 28px;
+  height: 37px;
+  margin-right: 12px;
+  display: inline-block;
+}
+.address-heading {
+  font-size: 18px;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+.contact-details {
+  font-size: 1.2em;
+}
+.contact-details1 {
+  margin-top: 60px;
+  font-size: 1.2em;
+}
+.footer-head{
+text-align:center;
+}
 /*  media queries for header starts */
 /*@media screen  and (min-width: 320px) and (max-width: 768px){
 
